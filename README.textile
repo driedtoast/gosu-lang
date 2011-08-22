@@ -1,0 +1,28 @@
+h1. Overview
+
+Its a pull of the code from the gosu-lang download so it can be forked, etc...
+
+h2. Reasons
+
+* Experiment with it
+* Eventually see if its feasible to make an ecma script compiler with it.
+
+h2. TODOs
+
+* Find the code, interestingly enough only code is to build the jars/gw-gosu-core-api.jar
+* Figure out the build
+* create a build script
+* build ext jars /ext/ (based on copies of libs under a gw/internal/ext/ structure within the jar) 
+** gw-commons-collections-3.2.1.jar - based off a copy of commons collections 
+** gw-commons-logging-1.1.1.jar - commons logging copy
+** gw-jetty-6.1.26RC0.jar - jetty copy
+** gw-jetty-util-6.1.26RC0.jar - jetty util  copy
+** gw-webservices.jar - some xml stuff, need to reverse engineer
+** gw-xercesImpl-2.9.1.jar - xerces impl under the funky dir
+** gw-xml.jar - this is a weird xml dir jar, need to reverse engineer
+
+
+Dependencies are:
+* servlet-api.jar
+* TBD
+
